@@ -83,3 +83,42 @@ nav a{
     border-radius: 5px;
     background: linear-gradient(blue, whitesmoke);
 }
+.center{
+    text-align: center;
+}
+.box{
+    border: 2px dashed orange;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    font-family: "Oswald", sans-serif;
+}
+.box p{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.box2{
+    font-family: "Oswald", sans-serif;
+}
+.box2 p{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table,td,th{
+    border: 2px solid black;
+}
+th{
+    background: #70bf5a;
+}
+td{
+    text-align: justify;
+    background: #90c980;
+    padding: 10px;
+}
