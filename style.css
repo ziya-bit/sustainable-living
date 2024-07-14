@@ -122,3 +122,9 @@ td{
     background: #90c980;
     padding: 10px;
 }
+li{
+    font-family: "Oswald", sans-serif;
+}
+#can_do h2{
+    font-family: "Oswald", sans-serif;
+}
