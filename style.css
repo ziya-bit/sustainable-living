@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: white;
+    /* background: white; */
     margin: 10px;
     padding: 12px;
     font-family: "Playfair Display", serif;
@@ -132,4 +132,28 @@ li{
 }
 #can_do h2{
     font-family: "Oswald", sans-serif;
+}
+#goals_detail .text .row{
+    margin: 10px;
+    padding: 10px;
+}
+#goals_detail .text .row::after{
+    content:"" ;
+    clear: both;
+    display: table;
+}
+#goals_detail .column{
+    float: left;
+    width: 19%;
+    margin: 5px;
+    padding: 10px;
+    background-color: whitesmoke;
+    height: 460px;
+}
+#goals_detail .column img{
+    height: 225px;
+    width: 225px;
+}
+#goals_detail .row{
+        background-color: cadetblue;
 }
